@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@200;300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-gold-50: #fbf8f3;
+  --color-gold-100: #f4edd9;
+  --color-gold-200: #e8d9b5;
+  --color-gold-300: #d6bd88;
+  --color-gold-400: #c1a162;
+  --color-gold-500: #a78144;
+  --color-gold-600: #8c6633;
+  --color-gold-700: #714f29;
+  --color-gold-800: #593d20;
+  --color-gold-900: #46301a;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fafafa;
+  color: #171717;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars for a luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3a3a3;
+}
+

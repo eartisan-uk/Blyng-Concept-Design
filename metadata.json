@@ -1,0 +1,6 @@
+{
+  "name": "Blyng Jewelry",
+  "description": "An elegant, high-end luxury jewelry storefront featuring exquisite handcrafted statement pieces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
